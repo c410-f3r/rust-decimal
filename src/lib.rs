@@ -128,7 +128,7 @@
 extern crate alloc;
 
 mod constants;
-mod decimal;
+pub mod decimal;
 mod error;
 mod ops;
 mod str;
